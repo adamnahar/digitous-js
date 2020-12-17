@@ -1,5 +1,5 @@
 // 01 calculator
-function calculator ( n1 , n2 , operator){
+function calculator ( numbner1 , number2 , operator){
     switch (operator){
         case "+" : {
             return number1 + number2 ;
@@ -21,16 +21,23 @@ function calculator ( n1 , n2 , operator){
         }
     }
     
-    
+    }
+    function calculator (number1 ,number2 , operator) {
+        if (operator === "+") {
+            return number1 + number2 ;
+            return number1 + number2;
+        } else if (operator === "-") {
+            return number1 - number2;
+        } else if (operator === "x") {
+            return number1 * number2;
+        } else if (operator === "/") {
+            return number1 / number2;
+        } else if (operator === "%") {
+            return number1 % number2;
+        } else {
+            console.log(`${operator} ;
+        }
+        }
     }
 }
-
-
-// 02 table
-
-
-// 03 separate table
-
-
-// 04 guess
 
